@@ -1,5 +1,5 @@
-<h1> :seedling: RAILS DB INITIATION :seedling: </h1>
-<h2> :bamboo: Découverte d'ActiveRecord :bamboo: </h2>
+<h1> :bamboo: RAILS DB INITIATION :bamboo: </h1>
+<h2> :seedling: Découverte d'ActiveRecord :seedling: </h2>
 <p>ActiveRecord est une gem permettant de traduire chaque table d'une base de donnée en classe Ruby. Du coup... eh ben c'est beaucoup plus facile à utiliser !</p>
 <p>Voici 5 applications rails contenant des bases de données crées avec cette gem. Pour en voir ou traiter le contenu, après s'être placé dans le dossier il suffit de lancer bundle install ($ bundle install), puis la console de rails ($ rails console).<br />
 Vous pourrez ensuite :
@@ -11,45 +11,44 @@ Vous pourrez ensuite :
 <h2>Structure : </h2>
 <p>
 ################################################################################################
-Blog    ########################################################################################
+Blog <a href="https://github.com/stug43/Useless_blog"><sub><sub>lien</sub></sub></a>
 
-Users(***User_ID***, Name)
-Articles(***Article_ID***, #User_ID, Title)
-Category(***Category_ID***, Title)
-Like(***Like_ID***, #User_ID, #Article_ID)
-Comment(***Comment_ID***, #Article_ID, #User_ID, Comment)
-
-
-################################################################################################
-MOOC Academy    ################################################################################
-
-Course(***Course_ID***, Title, Description)
-Lesson(***Lesson_ID***, #Course, Title, Body)
+Users(***User_ID***, Name)<br />
+Articles(***Article_ID***, #User_ID, Title)<br />
+Category(***Category_ID***, Title)<br />
+Like(***Like_ID***, #User_ID, #Article_ID)<br />
+Comment(***Comment_ID***, #Article_ID, #User_ID, Comment)<br />
 
 
 ################################################################################################
-Pinterest    ###################################################################################
+MOOC Academy <a href="https://github.com/stug43/MOOC_Academy"><sub><sub>lien</sub></sub></a>
 
-Users(***User_ID***, Name, Mail)
-Pin(***Pin_ID***, URL, Title, #User_ID)
-Comment(***Comment_ID***, #User_ID, #Pin_ID, Text)
-
-
-################################################################################################
-Hacking News    ################################################################################
-
-Users(***User_ID***, Name, Email)
-Links(***Link_ID***, URL, #User_Id)
-Comments(***Comment_ID***, #Link_ID, #User_ID, Text, Comment)
+Course(***Course_ID***, Title, Description)<br />
+Lesson(***Lesson_ID***, #Course, Title, Body)<br />
 
 
 ################################################################################################
-Hacking Class    ###############################################################################
+Pinterest <a href="https://github.com/stug43/PinterHack"><sub><sub>lien</sub></sub></a>
 
-Course(***Course_ID***, Title, Description)
-Students(***Student_ID***, Name, #Course_ID)
-Lesson(***Lesson_ID***, #Course_ID, Title, Body)
+Users(***User_ID***, Name, Mail)<br />
+Pin(***Pin_ID***, URL, Title, #User_ID)<br />
+Comment(***Comment_ID***, #User_ID, #Pin_ID, Text)<br />
+
+
+################################################################################################
+Hacking News <a href="https://github.com/stug43/Hacking_news"><sub><sub>lien</sub></sub></a>
+
+Users(***User_ID***, Name, Email)<br />
+Links(***Link_ID***, URL, #User_Id)<br />
+Comments(***Comment_ID***, #Link_ID, #User_ID, Text, Comment)<br />
+
+
+################################################################################################
+Hacking Class <a href="https://github.com/stug43/Hacking_classroom"><sub><sub>lien</sub></sub></a>
+
+Course(***Course_ID***, Title, Description)<br />
+Students(***Student_ID***, Name, #Course_ID)<br />
+Lesson(***Lesson_ID***, #Course_ID, Title, Body)<br />
 </p>
-<p><em>From MARSEILLE with :green_heart: <br />
-by :<br />
-:sunrise_over_mountains: Auguste_ng :sunrise_over_mountains:</em></p>
+<p><em>From : MARSEILLE with : :green_heart: <br />
+by : :sunrise_over_mountains: Auguste_ng :sunrise_over_mountains:</em></p>
